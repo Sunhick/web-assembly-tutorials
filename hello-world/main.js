@@ -7,8 +7,7 @@ function invoke() {
         ['string'],	    // argument types
         ['sunil']	    // arguments
     );
-    console.log(result);
-    console.log(rtype);
+    console.log(">> " + result);
 }
 
 // Module.ccall need to be called after async initialization of webassemby module

@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# generated web assembly files
+hello-world.js
+*.wasm
